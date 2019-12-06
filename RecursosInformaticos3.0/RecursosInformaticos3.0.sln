@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "CapaPresentacion\CapaPresentacion.csproj", "{2F037BC2-A86E-4FA4-B09C-F454669FACDD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B170D2F-4123-491B-953E-96B732589E8E} = {8B170D2F-4123-491B-953E-96B732589E8E}
+		{4409482F-27E3-4BE4-BE79-08EF1460BEF9} = {4409482F-27E3-4BE4-BE79-08EF1460BEF9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaAccesoDatos", "CapaAccesoDatos\CapaAccesoDatos.csproj", "{F4D0D4CE-038A-4593-9816-6327536C831F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4409482F-27E3-4BE4-BE79-08EF1460BEF9} = {4409482F-27E3-4BE4-BE79-08EF1460BEF9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntidades", "CapaEntidades\CapaEntidades.csproj", "{4409482F-27E3-4BE4-BE79-08EF1460BEF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaLogicaNegocio", "CapaLogicaNegocio\CapaLogicaNegocio.csproj", "{8B170D2F-4123-491B-953E-96B732589E8E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4409482F-27E3-4BE4-BE79-08EF1460BEF9} = {4409482F-27E3-4BE4-BE79-08EF1460BEF9}
+		{F4D0D4CE-038A-4593-9816-6327536C831F} = {F4D0D4CE-038A-4593-9816-6327536C831F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F037BC2-A86E-4FA4-B09C-F454669FACDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F037BC2-A86E-4FA4-B09C-F454669FACDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F037BC2-A86E-4FA4-B09C-F454669FACDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F037BC2-A86E-4FA4-B09C-F454669FACDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D0D4CE-038A-4593-9816-6327536C831F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D0D4CE-038A-4593-9816-6327536C831F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D0D4CE-038A-4593-9816-6327536C831F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D0D4CE-038A-4593-9816-6327536C831F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4409482F-27E3-4BE4-BE79-08EF1460BEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4409482F-27E3-4BE4-BE79-08EF1460BEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4409482F-27E3-4BE4-BE79-08EF1460BEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4409482F-27E3-4BE4-BE79-08EF1460BEF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B170D2F-4123-491B-953E-96B732589E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B170D2F-4123-491B-953E-96B732589E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B170D2F-4123-491B-953E-96B732589E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B170D2F-4123-491B-953E-96B732589E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DF26E3F-14EF-4448-95CF-BCCF00F2003D}
+	EndGlobalSection
+EndGlobal
