@@ -45,13 +45,13 @@
                             <label>EMPRESA</label>
                         </div>
                         <div class="form-group">
-                            <asp:DropDownList ID="ddlEmpresa" runat="server" CssClass="form-control"></asp:DropDownList>
+                            <asp:DropDownList ID="ddlEmpresa" runat="server" CssClass="form-control" AutoPostBack="True"></asp:DropDownList>
                         </div>
                         <div class="form-group">
                             <label>DEPARTAMENTO</label>
                         </div>
                         <div class="form-group">
-                            <asp:DropDownList ID="ddlDepartamento" runat="server" CssClass="form-control"></asp:DropDownList>
+                            <asp:DropDownList ID="ddlDepartamento" runat="server" CssClass="form-control" AutoPostBack="True"></asp:DropDownList>
                         </div>
                         <div class="form-group">
                             <label>USUARIO</label>
@@ -76,7 +76,7 @@
                         </div>
                         <div class="form-group">
                             <asp:RadioButtonList ID="rblPerfil" runat="server" RepeatDirection="Horizontal" align="center" CellPadding="8">
-                                <asp:ListItem Value="1" Selected="True">Usuario</asp:ListItem>
+                                <asp:ListItem Value="1" Selected="True">Usuario</asp:ListItem>                                
                                 <asp:ListItem Value="2">Gerencial</asp:ListItem>
                                 <asp:ListItem Value="3">Administradores de Áreas</asp:ListItem>
                                 <asp:ListItem Value="4">Administrador General</asp:ListItem>
@@ -88,7 +88,7 @@
         </div>
         <div align="center">
             <table>
-                <tr>
+                <tr>                   
                     <td>
                         <asp:Button ID="btnRegistrar" runat="server" CssClass="btn btn-primary" Width="200px" Text="Registrar" OnClick="btnRegistrar_Click" />
                     </td>

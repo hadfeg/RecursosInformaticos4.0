@@ -240,7 +240,7 @@
               </a>
               <ul class="treeview-menu">
                   <li><a href="GestionUsuarios.aspx"><i class="fa fa-user-plus"></i>Nuevo Usuario</a></li>
-                  <li><a href="ListadoUsuario.aspx"><i class="fa fa-list"></i>Listado de Usuarios</a></li>
+                  <li><a href="ListarUsuario.aspx"><i class="fa fa-list"></i>Listado de Usuarios</a></li>
                   <li><a href="GestionPerfil.aspx"><i class="fa fa-lock"></i>Nuevo Perfil</a></li>
                   <li><a href="ListadoPerfil.aspx"><i class="fa fa-list-alt"></i>Listado de Perfiles</a></li>
               </ul>
@@ -428,7 +428,7 @@
         </form>
         <footer class="main-footer">  
             <div class="pull-right-container" style="text-align: center">
-                <strong>Copyright &copy; 2019-2019 <a href="https://siti.cl">siTI</a>.</strong> All rights reserved.
+                <strong>Copyright &copy; 2019-2021 <a href="https://siti.cl">siTI</a>.</strong> All rights reserved.
                
             </div>
  

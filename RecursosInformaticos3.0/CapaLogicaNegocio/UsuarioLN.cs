@@ -61,6 +61,7 @@ namespace CapaLogicaNegocio
                 throw ex;
             }
         }
+
         public List<Usuario> ListarUsuarios()
         {
             try

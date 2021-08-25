@@ -23,6 +23,7 @@ namespace CapaAccesoDatos
             return daoUsuario;
         }
         #endregion
+
         public Usuario AccesoSistema(String user, String pass)
         {
             SqlConnection conexion = null;
@@ -57,6 +58,7 @@ namespace CapaAccesoDatos
             }
             return objUsuario;
         }
+
         public bool RegistrarUsuario(Usuario objUsuario)
         {
             SqlConnection con = null;
@@ -119,6 +121,7 @@ namespace CapaAccesoDatos
             }
             return ds;
         }
+
         public List<Usuario> ListarUsuarios()
         {
             List<Usuario> Lista = new List<Usuario>();
@@ -159,8 +162,9 @@ namespace CapaAccesoDatos
                 con.Close();
             }
             return Lista;
-        }
+        }        
 
+        
     }
 
 }

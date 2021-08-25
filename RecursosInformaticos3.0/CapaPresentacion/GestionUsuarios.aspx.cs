@@ -14,8 +14,16 @@ namespace CapaPresentacion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            /*if(!IsPostBack)
+            {
+                IniciarLlenadoDropDown();
+            }*/
         }
+        /*private void IniciarLlenadoDropDown()
+        {
+            
+            ddlEmpresa.DataSource = 
+        }*/
 
         protected void btnRegistrar_Click(object sender, EventArgs e) {
 
@@ -73,7 +81,7 @@ namespace CapaPresentacion
 
 
         }
-
+        
         private Usuario GetEntity()
         {
             //int NivelAcceso = Convert.ToInt32(rbNivelAcceso.SelectedValue);
@@ -83,7 +91,7 @@ namespace CapaPresentacion
             objUsuario.LastName = txtApellido.Text;
             objUsuario.Rut = txtRut.Text;
             objUsuario.Mail = txtEmail.Text;
-            //objUsuario.Rol = Convert.ToInt32(ddlPerfil.SelectedValue);
+            objUsuario.Rol = Convert.ToInt32(rblPerfil.SelectedValue);
             //objUsuario.Estado = Convert.ToInt32(ddlEstado.SelectedValue);
             objUsuario.Pass = txtContrasena.Text;
 
