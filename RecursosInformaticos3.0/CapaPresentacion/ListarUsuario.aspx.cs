@@ -33,29 +33,29 @@ namespace CapaPresentacion
             return Lista;
         }
 
-        [WebMethod]
-        public static bool ActualizarDatosUsuario(String id, String direccion)
-        {
-            Usuario objUsuario = new Usuario()
-            {
-                IdUsuario = Convert.ToInt32(id),
-                Direccion = direccion
-            };
+        //[WebMethod]
+        //public static bool ActualizarDatosUsuario(String id, String direccion)
+        //{
+        //    Usuario objUsuario = new Usuario()
+        //    {
+        //        IdUsuario = Convert.ToInt32(id),
+        //        Direccion = direccion
+        //    };
 
-            bool ok = UsuarioLN.getInstance().Actualizar(objPaciente);
-            return ok;
-        }
+        //    bool ok = UsuarioLN.getInstance().Actualizar(objPaciente);
+        //    return ok;
+        //}
 
-        [WebMethod]
-        public static bool EliminarDatosPaciente(String id)
-        {
-            Int32 idPaciente = Convert.ToInt32(id);
+        //[WebMethod]
+        //public static bool EliminarDatosPaciente(String id)
+        //{
+        //    Int32 idPaciente = Convert.ToInt32(id);
 
-            bool ok = PacienteLN.getInstance().Eliminar(idPaciente);
+        //    bool ok = PacienteLN.getInstance().Eliminar(idPaciente);
 
-            return ok;
+        //    return ok;
 
-        }     
+        //}     
         
     }
 }

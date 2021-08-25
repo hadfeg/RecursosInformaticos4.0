@@ -11378,7 +11378,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sNext": "Next",
+				"sNext": "Siguiente",
 	
 	
 				/**
@@ -11395,13 +11395,13 @@
 				 *      $('#example').dataTable( {
 				 *        "language": {
 				 *          "paginate": {
-				 *            "previous": "Previous page"
+				 *            "Anterior": "Previous page"
 				 *          }
 				 *        }
 				 *      } );
 				 *    } );
 				 */
-				"sPrevious": "Previous"
+				"sPrevious": "Anterior"
 			},
 	
 			/**
@@ -11697,7 +11697,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sSearch": "Search:",
+			"sSearch": "Buscar:",
 	
 	
 			/**

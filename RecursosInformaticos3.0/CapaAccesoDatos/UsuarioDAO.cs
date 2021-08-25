@@ -143,11 +143,13 @@ namespace CapaAccesoDatos
                     objUsuario.Rut = dr["Rut"].ToString();
                     objUsuario.Name = dr["Nombre"].ToString();
                     objUsuario.LastName = dr["Apellido"].ToString();
-                    objUsuario.Mail = dr["Email"].ToString();
-                    objUsuario.Rol = Convert.ToInt32(dr["Rol"].ToString());
-                    objUsuario.Pass = dr["Contraseña"].ToString();
-                    objUsuario.User = dr["Usuario"].ToString();
+                    objUsuario.IdEmpresa = Convert.ToInt32(dr["IdEmpresa"].ToString());
+                    objUsuario.IdEmpresa = Convert.ToInt32(dr["IdDepartamento"].ToString());
+                    // objUsuario.Rol = Convert.ToInt32(dr["Rol"].ToString());
+                    //objUsuario.Pass = dr["Contraseña"].ToString();
+                    //objUsuario.User = dr["Usuario"].ToString();
                     //objPerfil.Descripcion= dr["Descripcion"].ToString();
+                   // objUsuario. = dr["Id"].ToString();
 
                     // añadir a la lista de objetos
                     Lista.Add(objUsuario);

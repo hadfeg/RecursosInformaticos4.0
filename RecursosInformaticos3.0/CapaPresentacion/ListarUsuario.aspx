@@ -22,8 +22,6 @@
                                     <th>Apellidos</th>
                                     <th>Empresa</th>
                                     <th>Departamento</th>
-                                    <th>Perfil</th>
-                                    <th>Acciones</th>
                                 </tr>
                             </thead>
                             <tbody id="tbl_body_table">
@@ -37,6 +35,7 @@
         <!-- End Datatable -->
     </section> 
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
-       
+<asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">     
+    <script src="js/usuario.js" type="text/javascript"></script>    
+    
 </asp:Content>

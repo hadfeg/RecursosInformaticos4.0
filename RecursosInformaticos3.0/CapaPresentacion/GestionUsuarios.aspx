@@ -27,8 +27,7 @@
                             <label>APELLIDOS</label></div>
                         <div class="form-group">
                             <asp:TextBox ID="txtApellido" runat="server" Text="" CssClass="form-control" placeholder="Ej: Fernández"></asp:TextBox>
-                        </div>
-                        
+                        </div>                        
                         <div class="form-group">
                             <label>E-MAIL</label>
                         </div>
@@ -146,5 +145,6 @@
     </script>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
+    
 </asp:Content>
 

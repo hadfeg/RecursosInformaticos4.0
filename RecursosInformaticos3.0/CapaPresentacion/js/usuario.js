@@ -1,4 +1,5 @@
-﻿var tabla, data;
+﻿
+var tabla, data;
 
 function addRowDT(data) {
     tabla = $("#tbl_usuarios").DataTable({
@@ -20,18 +21,15 @@ function addRowDT(data) {
 
     for (var i = 0; i < data.length; i++) {
         tabla.fnAddData([
-            data[i].IdPaciente,
-            data[i].Nombres,
-            (data[i].ApPaterno + " " + data[i].ApMaterno),
-            ((data[i].Sexo == 'M') ? "Masculino" : "Femenino"),
-            data[i].Edad,
-            data[i].Direccion,
-            '<button type="button" value="Actualizar" title="Actualizar" class="btn btn-primary btn-edit" data-target="#imodal" data-toggle="modal"><i class="fa fa-check-square-o" aria-hidden="true"></i></button>&nbsp;' +
-            '<button type="button" value="Eliminar" title="Eliminar" class="btn btn-danger btn-delete"><i class="fa fa-minus-square-o" aria-hidden="true"></i></button>'
+            data[i].Rut,
+            data[i].Name,
+            data[i].LastName,
+            data[i].IdEmpresa,
+            data[i].IdDepartamento            
 
         ]);
     }
-    //  ((data[i].Estado == true) ? "Activo" : "Inactivo")
+     //  ((data[i].Estado == true) ? "Activo" : "Inactivo")
 }
 
 function sendDataAjax() {
@@ -45,6 +43,7 @@ function sendDataAjax() {
         },
         success: function (data) {
             addRowDT(data.d);
+            console.log(data);
         }
     });
 }
