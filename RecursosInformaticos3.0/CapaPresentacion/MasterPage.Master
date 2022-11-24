@@ -644,8 +644,9 @@
 <!-- AdminLTE for demo purposes -->
 <script src="AdminLTE-2.4.0/dist/js/demo.js"></script>
 <!-- DataTables -->
-<script src="js/plugins/datatables/jquery.dataTables.js"></script>
-<script src="js/plugins/datatables/dataTables.bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.11.2/datatables.min.js"></script>
+<!--<script src="js/plugins/datatables/jquery.dataTables.js"></script>
+<script src="js/plugins/datatables/dataTables.bootstrap.js"></script>-->
 <script>
     $(document).ready(function () {
         $('.sidebar-menu').tree()

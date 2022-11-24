@@ -26,7 +26,7 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a>Farias <b>Recursos TI</b></a>
+            GESTIÓN DE RECURSOS
         </div>
         <!-- /.login-logo -->
         <div class="login-box-body">
